@@ -8,7 +8,7 @@ function ChangeCol(element, color) {
 ChangeCol(LastP, 'purple');
 
 function firstPlace(element, parentEl) {
-    parentEl.before(element)
+    parentEl.before(element);
 }
 
 let main = document.querySelector('#main');
